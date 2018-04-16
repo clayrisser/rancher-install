@@ -7,7 +7,7 @@ read -p "Mysql user: " MYSQL_USER
 read -p "Mysql password: " MYSQL_PASSWORD
 read -p "Mysql database: " MYSQL_DATABASE
 
-curl -L https://raw.githubusercontent.com/codejamninja/dsrp/master/dsrp.sh | sudo bash 2>/dev/null
+curl -L https://raw.githubusercontent.com/codejamninja/dsrp/master/dsrp.sh | sudo sh
 
 sudo docker run --name rancher \
     -d --restart=unless-stopped \
