@@ -22,7 +22,7 @@ Please ★ this repo if you found it useful ★ ★ ★
 ## Usage
 
 ```sh
-curl -L https://raw.githubusercontent.com/codejamninja/rancher-install/master/rancher-install.sh | sudo bash
+curl -L https://raw.githubusercontent.com/codejamninja/rancher-install/master/rancher-install.sh | sudo sh
 ```
 
 
